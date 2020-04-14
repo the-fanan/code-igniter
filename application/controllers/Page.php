@@ -20,6 +20,7 @@ class Page extends CI_Controller {
 	 */
 	public function view()
 	{
-		$this->load->view('page_message');
+		$this->load->view('page_message', ['base_path' => FCPATH]);
+
 	}
 }

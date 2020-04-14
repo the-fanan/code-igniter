@@ -78,7 +78,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>
-
+		<code><?php echo $base_path ?></code>
+		<code><?php echo "DB_DATABASE => " . env('DB_DATABASE') ?></code>
+		<code><?php echo "DB_DRIVER => " . env('DB_DRIVER') ?></code>
 		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 	</div>
 
